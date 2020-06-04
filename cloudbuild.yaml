@@ -1,0 +1,4 @@
+# CloudBuild in GIT test1 repo
+steps:
+- name: gcr.io/cloud-builders/gcloud
+  args: ['info']
